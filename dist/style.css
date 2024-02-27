@@ -58,36 +58,37 @@ a, a:visited, a:hover {
   font-weight: 700;
 }
 
-.header {
+.top-header {
   background-color: #000000;
 }
-.header__discountOffer {
+.top-header__content {
   color: #FFFFFF;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
-  min-height: 48px;
-  font-size: 14px;
-  padding: 12px 0;
+  min-height: 3rem;
+  font-size: 0.875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
-.header__discountOffer span {
+.top-header__content span {
   grid-column: 2/3;
   justify-self: center;
 }
-.header__discountOffer span a {
+.top-header__content span a {
   color: #FFFFFF;
   text-decoration: underline;
   margin-left: 8px;
   font-weight: 600;
 }
-.header__lang {
+.top-header__formSelect {
   grid-column: 3/4;
   justify-self: flex-end;
   max-width: 78px;
   position: relative;
 }
-.header__lang select {
+.top-header__formSelect select {
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
@@ -99,13 +100,13 @@ a, a:visited, a:hover {
   cursor: pointer;
   width: 100%;
 }
-.header__lang svg {
+.top-header__formSelect svg {
   position: absolute;
   right: 0;
   width: 22px;
   height: 22px;
   pointer-events: none;
 }
-.header__lang svg path {
+.top-header__formSelect svg path {
   fill: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
