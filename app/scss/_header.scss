@@ -1,0 +1,56 @@
+.header {
+    background-color: $black;
+
+    &__discountOffer {
+        color: $white;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        justify-content: center;
+        align-items: center;
+        min-height: 48px;
+        font-size: 14px;
+        padding: 12px 0;
+
+       span {
+        grid-column: 2/3;
+        justify-self: center;
+
+        a {
+            color: $white;
+            text-decoration: underline;
+            margin-left: 8px;
+            font-weight: 600;
+        }
+       }
+       
+    }
+
+    &__lang {
+        grid-column: 3/4;
+        justify-self: flex-end;
+        max-width: 78px;
+        position: relative;
+
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            border-radius: 0.25rem;
+            background-color: $black;
+            padding: 3px 22px 3px 3px;
+            color: $white;
+            border: 0;
+            cursor: pointer;
+            width: 100%;
+        }
+        svg {
+            position: absolute;
+            right: 0;
+            width: 22px;
+            height: 22px;
+            pointer-events: none;
+            path {
+                fill: $white;
+            }
+        }
+    }
+}
