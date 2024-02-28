@@ -1,4 +1,25 @@
-$black : #000000; 
-$inputBg: #F5F5F5;
-$whiteText: #FAFAFA;
-$white : #FFFFFF;
+// Colors
+$primary : #000000; 
+$secondary : #FFFFFF;
+$color-text: #FAFAFA;
+$color-bg-box: #F5F5F5;
+$color-btn1: #DB4444;
+$color-btn2: #00FF66;
+
+.dark-mode {
+   // Colors
+    $primary : #000000; 
+    $secontary : #FFFFFF;
+    $color-text: #FAFAFA;
+    $color-bg-box: #F5F5F5;
+    $color-btn1: #DB4444;
+    $color-btn2: #00FF66; 
+}
+// Fonts
+$font-sm : 12px;
+$font-semi-ms : 14px ; // 12px : 
+$font-regular: 16px;
+$font-md : 20px;
+$font-semi-md : 24px;
+$font-larg :36px ; 
+$font-xlarg :48px ; 
