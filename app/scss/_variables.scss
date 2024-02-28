@@ -1,20 +1,26 @@
 // Colors
-$primary : #000000; 
-$secondary : #FFFFFF;
-$color-text: #FAFAFA;
-$color-bg-box: #F5F5F5;
-$color-btn1: #DB4444;
-$color-btn2: #00FF66;
+:root {
+    --primary : #000000; 
+    --secondary : #FFFFFF;
+    --color-text: #FAFAFA;
+    --color-bg-box: #F5F5F5;
+    --color-btn1: #DB4444;
+    --color-btn2: #00FF66;
 
-.dark-mode {
-   // Colors
-    $primary : #000000; 
-    $secontary : #FFFFFF;
-    $color-text: #FAFAFA;
-    $color-bg-box: #F5F5F5;
-    $color-btn1: #DB4444;
-    $color-btn2: #00FF66; 
 }
+
+.dark {
+       // Colors
+       // choose color to dark mode after coding the full page
+        --primary : #2196f3 ;
+        --secondary : #000000;
+        --color-text: #FAFAFA;
+        --color-bg-box: #F5F5F5;
+        --color-btn1: #DB4444;
+        --color-btn2: #00FF66; 
+
+}
+
 // Fonts
 $font-sm : 12px;
 $font-semi-ms : 14px ; // 12px : 

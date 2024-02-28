@@ -4,11 +4,11 @@
         justify-content: space-between;
         align-items: center;
     }
-    &__logo {
-        svg {
+    // &__logo {
+    //     svg {
 
-        }
-    }
+    //     }
+    // }
     &__links {
         list-style-type: none;
         display: flex;
@@ -30,7 +30,7 @@
       input[type="text"] {
         padding: 10px 45px 10px 15px;
         border: 0;
-        background-color:$color-bg-box;
+        background-color:var(--color-bg-box);
       }
       a {
         position: absolute;

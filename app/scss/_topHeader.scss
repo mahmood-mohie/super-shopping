@@ -1,8 +1,8 @@
 .top-header {
-    background-color: $primary;
+    background-color:var(--primary);
 
     &__content {
-        color: $secondary;
+        color: var(--secondary) ;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         justify-content: center;
@@ -16,7 +16,7 @@
         justify-self: center;
 
         a {
-            color: $secondary;
+            color: var(--secondary) ;
             text-decoration: underline;
             margin-left: 8px;
             font-weight: 600;
@@ -76,7 +76,7 @@
                 bottom: 2px;
                 width: 20px;
                 height: 20px;
-                background-color: white;
+                background-color: var(--secondary);
                 border-radius: 50%;
                 transition: transform 200ms ease-in-out;
             }
@@ -94,9 +94,9 @@
             appearance: none;
             -webkit-appearance: none;
             border-radius: 0.25rem;
-            background-color: $primary;
+            background-color: var(--primary);
             padding: 3px 22px 3px 3px;
-            color: $secondary;
+            color:  var(--secondary);
             border: 0;
             cursor: pointer;
             width: 100%;
@@ -110,7 +110,7 @@
             pointer-events: none;
             -webkit-mask: url(../../images/icons/header=DropDown.svg) no-repeat center;
             mask: url(../../images/icons/header=DropDown.svg) no-repeat center;
-            background-color: white;
+            background-color: var(--secondary);
         }
     }
 }

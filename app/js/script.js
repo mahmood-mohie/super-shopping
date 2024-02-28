@@ -8,15 +8,15 @@ function darkMode () {
     let darkModeState = false;
     
     function toggleDarkMode(state){
-        document.documentElement.classList.toggle("dark-mode", state);
+        document.documentElement.classList.toggle("dark", state);
         darkModeState = state;
     }
 
     function setDarkModeLocalStorage (state) {
-        window.localStorage.setItem("dark-mode", state )
+        window.localStorage.setItem("dark", state )
     }
     // Intial settings
-    toggleDarkMode(window.localStorage.getItem("dark-mode") == true)
+    toggleDarkMode(window.localStorage.getItem("dark") == true)
     // Listen for changes in the OS settings.
     useDark.addListener((evt)=> toggleDarkMode(evt.matches));
     // Toggles the "dark-mode" class on click and sets localStorage state
