@@ -1,4 +1,4 @@
-.top-header {
+.Banner {
     background-color:var(--primary);
 
     &__content {
@@ -31,7 +31,7 @@
         align-items: center;
     }
     // dark and light mode
-    &__switch { //label
+    &__themeSwitcher { //label
         display: inline-block;
         width: 48px;
         height: 24px;
@@ -41,10 +41,10 @@
             height: 0;
             width: 0;
 
-            &:checked + .slider {
+            &.checked + .slider {
                 background-color: #1e38ff;            
             }
-            &:checked + .slider::before {
+            &.checked + .slider::before {
                 transform: translateX(23px);
             }
         }
