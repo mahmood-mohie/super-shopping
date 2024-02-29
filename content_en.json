@@ -1,0 +1,14 @@
+{
+    "homepage": {
+
+        "discount" : {
+            "offer": "Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!",
+            "shop": "shopNow"
+        },
+        "header" : {
+            "links" : ["Home","Contact","about", "Sign Up"],
+            "placeholderSeach" : "What are you looking for?"
+        }
+        
+    }
+}
