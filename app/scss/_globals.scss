@@ -17,7 +17,7 @@ body {
     padding: 0;
     line-height: 1.3;
     background-color: var(--secondary) ;
-    color: var(--color-text);
+    color: var(--primary);
 }
 a, a:visited , a:hover {
     text-decoration: none;
@@ -33,6 +33,7 @@ a, a:visited , a:hover {
         justify-content: space-between;
     }
 }
+ 
 
 // Size
 .container {
@@ -44,6 +45,12 @@ a, a:visited , a:hover {
 // links 
 a , a:visited, a:hover {
     text-decoration: none;
+}
+
+// list
+ul {
+    list-style-type: none;
+    margin: 0px;
 }
 // fonts
 .poppins {
@@ -62,5 +69,52 @@ a , a:visited, a:hover {
         font-weight: 700;
     }
 }
+// section title 
+.identifier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    &__title {
+        grid-column: 1/2;
+        div {
+            display: flex;
+            align-items: center;
+            h3 {
+               padding-left: 7px;
+               font-size: 16px;
+               /* display: inline-block; */
+               color: var(--color-btn1);
+           }
+        }
+        h2 {
+            font-size: 36px;
+            
+            margin: 24px 0 0;
+        }
+    }
+    &__clickBtn {
+        justify-self: flex-end;
+        align-self: flex-end;
+        grid-column: 3/4;
+        span {
+            cursor: pointer;
+        }
+    }
+}
   
-  
+// button 
+.button {
+    display: inline-block;
+    width: 234px;
+    height: 56px;
+    padding: 16px 0;
+    text-align: center;
+    background-color: var(--color-btn1);
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

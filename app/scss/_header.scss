@@ -1,6 +1,6 @@
 .header {
-    border: 1px solid var(--color-bg-box);
-    &__content {
+    border-bottom: 1px solid var(--color-bg-box);
+        &__content {
         padding-top: 40px;
         padding-bottom: 16px;
     }
@@ -10,15 +10,16 @@
         align-items: center;
     }
     &__logo {
-        svg {
-            width: 118px;
-            height: 24px;
-        }
+        width: 118px;
+        height: 24px;
+
     }
     &__links {
         list-style-type: none;
         display: flex;
+        align-items: center;
         margin: 0;
+        padding: 0;
         li {
             margin-right: 48px;
             a {
@@ -46,7 +47,7 @@
         // padding: 10px;
         background-color:var(--color-bg-box);
          border: none;
-         max-width: 243px;
+         width: 243px;
          height: 38px;
          padding: 5px 10px 5px 19px;
          border-radius: 2px;
