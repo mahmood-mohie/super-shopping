@@ -282,32 +282,27 @@ ul {
   height: 100%;
 }
 .header__search {
+  position: relative;
+  overflow: hidden;
   background-color: var(--color-bg-box);
-  border: none;
-  width: 243px;
-  height: 38px;
-  padding: 5px 10px 5px 19px;
   border-radius: 2px;
   transition: 0.2s;
   font-size: 1rem;
 }
 .header__search input[type=search] {
   border: none;
-  vertical-align: 50%;
+  padding: 10px 20px 10px 19px;
   background-color: var(--color-bg-box);
-}
-.header__search input[type=search]:focus {
-  outline: none;
 }
 .header__search input[type=search]::-webkit-search-cancel-button {
   appearance: none;
   -webkit-appearance: none;
 }
 .header__search svg {
-  display: inline-block;
+  position: absolute;
+  /* display: inline-block; */
+  right: 6px;
   height: 100%;
-}
-.header__search svg:hover {
   cursor: pointer;
 }
 
